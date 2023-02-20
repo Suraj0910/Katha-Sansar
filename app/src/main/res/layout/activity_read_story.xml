@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3F51B5"
+        android:fontFamily="@font/devanagari"
+        android:gravity="center"
+        android:text="सर्कसको हात्ती"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textColorLink="#F44336"
+        android:textSize="40sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgTitle"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/elephant" />
+
+            <EditText
+                android:id="@+id/txtStory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="ifContentScrolls"
+                android:text="कुनै एक समयमा एउटा सर्कसमा पाँच हात्तीहरु थिए र उनीहरुले संधै सर्कसमा प्रदशन गर्नु पर्थ्यो । उनीहरुलाई सर्कसको मालिकले कमजोर डोरीले बाँधेको थियो ।  हात्तीहरु निकै ठुलो र बलियो देखिन्थ्यो । तर पनि ति हात्तीहरुले कहिले पनि त्यो कमजोर डोरीलाई तोड्न प्रयास गरेनन् ।  एक दिन, सर्कस हेर्न आएको एक व्यक्तिले सर्कसको मालिकलाई सोधे: “यी हात्तीहरु किन डोरी तोडेर नभागेका ? हेर्दा त सबै हात्ती बलबान देख्छु ।”  सर्कसको मालिकले जवाफ दिए: “जब यी हात्तीहरु साना थिए, तब यिनीहरुलाई बलियो डोरीले बाँधियो । त्यो समय देखिनै यी हात्तीहरुलाई विश्वास गर्न लगाईयो कि उनीहरु रस्सी तोड्ने र भाग्न सक्ने बलिया छैनन्।” यो विश्वास को कारणले अब कमजोर डोरीले बाँधे पनि, उनीहरु कहिले पनि डोरी तोड्ने कोसिस गर्दैनन् ।  कथाको पाठ : गर्न सक्छु भनेर बिस्वाश गर्नु नै गर्नु बराबर हो।" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="back"
+            app:cornerRadius="12dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Read"
+            app:cornerRadius="12dp" />
+    </LinearLayout>
+</LinearLayout>
