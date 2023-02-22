@@ -39,7 +39,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#0CCD14"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -52,10 +52,10 @@
                         android:id="@+id/textStory1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#07DF0F"
+
                         android:text="सर्कसको हात्ती"
                         android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:textSize="35sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -69,7 +69,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#0CCD14"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -82,10 +82,10 @@
                         android:id="@+id/textStory2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#07DF0F"
+
                         android:text="अलादीनको कथा"
                         android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:textSize="35sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -100,7 +100,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#0CCD14"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -113,10 +113,10 @@
                         android:id="@+id/textStory3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#07DF0F"
+
                         android:text=" बाँदर र गोही"
                         android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:textSize="35sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -131,7 +131,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#0CCD14"
+
                     android:orientation="vertical">
 
                     <ImageView
@@ -144,10 +144,10 @@
                         android:id="@+id/textStory4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#07DF0F"
+
                         android:text="नँया सोच"
                         android:textAlignment="center"
-                        android:textSize="25sp" />
+                        android:textSize="35sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
